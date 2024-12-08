@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/style2.css">
+
+        <title>On face</title>
+    </head>
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+
+            <div class="header__img">
+                <img src="assets/img/perfilkamily.jfif" alt="">
+            </div>
+        </header>
+
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div>
+                    <a href="#topo" class="nav__logo">
+                      <i class='bx bxl-kickstarter'></i>
+                        <span class="nav__logo-name">On face</span>
+                    </a>
+
+                    <div class="nav__list">
+                        <a href="#criar-post" class="nav__link active">
+                        <i class='bx bx-grid-alt nav__icon' ></i>
+                            <span class="nav__name">Pagina Inicial</span>
+                        </a>
+                       
+
+                        <a href="#solicitação" class="nav__link">
+                            <i class='bx bx-bell'></i>
+                            <span class="nav__name">Solicitações</span>
+                        </a>
+
+                        <a href="#mensagem" class="nav__link">
+                          <i class='bx bx-message-square-dots'></i>
+                            <span class="nav__name">Mensagens</span>
+                        </a>
+
+                     
+                    </div>
+                </div>
+
+                <a href="index-login.html" class="nav__link">
+                    <i class='bx bx-log-out nav__icon' ></i>
+                    <span class="nav__name">Login</span>
+                </a>
+            </nav>
+        </div>
+
+        
+
+
+      <!-- inicio meio -->
+      <div class="meio">
+        <!-- parte dos stories -->
+        <div class="stories">
+          <!-- inicio stories -->
+          <div class="story">
+            <div class="foto-perfil">
+              <img src="assets/img/perfilkamily.jfif" alt="foto-perfil 1" />
+            </div>
+            <p class="nome-story">Seu Story</p>
+          </div>
+
+          <div class="story">
+            <div class="foto-perfil">
+              <img src="assets/img/perfilraycka.jfif" alt="foto-perfil 6" />
+            </div>
+            <p class="nome-story">Rayca Marszolekinha</p>
+          </div>
+
+          <div class="story">
+            <div class="foto-perfil">
+              <img src="assets/img/perfilkariii.jfif" alt="foto-perfil 7" />
+            </div>
+            <p class="nome-story">Karine Silva</p>
+          </div>
+
+          <div class="story">
+            <div class="foto-perfil">
+              <img src="assets/img/perfilmaloqueiro.jfif" alt="foto-perfil 8" />
+            </div>
+            <p class="nome-story">Yuri Fellipe</p>
+          </div>
+
+          <div class="story">
+            <div class="foto-perfil">
+              <img src="assets/img/perfil3.jpg" alt="foto-perfil 9" />
+            </div>
+            <p class="nome-story">Sophie Souza</p>
+          </div>
+        </div>
+        <!-- fim stories -->
+
+        <form action="" class="criar-post">
+          <div class="foto-perfil">
+            <img src="assets/img/perfilkamily.jfif" alt="foto-perfil 1" />
+          </div>
+          <input
+            type="text"
+            name="post"
+            id="criar-post"
+            placeholder="No que você está pensando, Kamily?"
+          />
+          <input
+            type="submit"
+            value="Postar"
+            class="btn btn-primario btn-fonte"
+          />
+        </form>
+
+        <!-- inicio feeds -->
+        <div class="feeds">
+          <!-- inicio feed 1 -->
+          <div class="feed">
+            <div class="cabecalho">
+              <div class="usuario">
+                <div class="foto-perfil">
+                  <img src="assets/img/perfil3.jpg" alt="foto-perfil 3" />
+                </div>
+                <div class="ingo">
+                  <h3>Sophie Souza</h3>
+                  <small>Centro Santos, SP, 15 minutos atrás</small>
+                </div>
+              </div>
+              <span class="editar">
+                <i class="uil uil-ellipsis-h cursor-botoes"></i>
+              </span>
+            </div>
+
+            <div class="foto-feed">
+              <img src="assets/img/centrosantosfeed.jfif" alt="imagem feed 1" />
+            </div>
+
+            <div class="btn-acao">
+              <div class="btn-interacao">
+                <span><i class="uil uil-heart-alt cursor-botoes"></i></span>
+                <span><i class="uil uil-comment-dots cursor-botoes"></i></span>
+                <span><i class="uil uil-share-alt cursor-botoes"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full cursor-botoes"></i></span>
+              </div>
+            </div>
+
+            <div class="curtidas">
+              <span
+                ><img src="assets/img/perfilkamily.jfif" alt="imagem perfil 8"
+              /></span>
+              <span
+                ><img src="assets/img/perfilvelho.jfif" alt="imagem perfil 3"
+              /></span>
+              <p>Curtido por <b>Quirinho</b> e mais 110 pessoas</p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b>Sophie Souza</b> vivências | photo dump
+              </p>
+            </div>
+            <div class="comentarios texto-mudo">Ver os 93 comentários</div>
+          </div>
+          <!-- fim feed 1 -->
+          <!-- inicio feed 2 -->
+          <div class="feed">
+            <div class="cabecalho">
+              <div class="usuario">
+                <div class="foto-perfil">
+                  <img src="assets/img/perfilraycka.jfif" alt="foto mike-ross" />
+                </div>
+                <div class="ingo">
+                  <h3>Rayca Marszolekinha</h3>
+                  <small>Cubatão, SP, 1 hora atrás</small>
+                </div>
+              </div>
+              <span class="editar">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="foto-feed">
+              <img src="assets/img/pubraycka.jfif" alt="imagem feed 2" />
+            </div>
+
+            <div class="btn-acao">
+              <div class="btn-interacao">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="curtidas">
+              <span
+                ><img src="assets/img/perfilkamily.jfif" alt="imagem perfil 5"
+              /></span>
+              <span
+                ><img src="assets/img/perfilkariii.jfif" alt="imagem perfil 8"
+              /></span>
+              <span
+                ><img src="assets/img/perfilpreta.jfif" alt="imagem perfil 3"
+              /></span>
+              <p>Curtido por <b>Clarinha do grau</b> e mais 65 pessoas</p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b>Rayca Marszolekinha</b> buuuuu
+                <span class="hash-tag"> #hallowen </span>
+              </p>
+            </div>
+            <div class="comentarios texto-mudo">Ver os 30 comentários</div>
+          </div>
+          <!-- fim feed 2 -->
+          <!-- inicio feed 3 -->
+          <div class="feed">
+            <div class="cabecalho">
+              <div class="usuario">
+                <div class="foto-perfil">
+                  <img src="assets/img/perfilkariii.jfif" alt="foto-izzy" />
+                </div>
+                <div class="ingo">
+                  <h3>Karine Silva</h3>
+                  <small>Praia Grande, SP, 2 horas atrás</small>
+                </div>
+              </div>
+              <span class="editar">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="foto-feed">
+              <img src="assets/img/pubkarinn.jfif" alt="imagem montreal" />
+            </div>
+
+            <div class="btn-acao">
+              <div class="btn-interacao">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="curtidas">
+              <span
+                ><img src="assets/img/perfilpreta.jfif" alt="imagem perfil 5"
+              /></span>
+              <span
+                ><img src="assets/img/perfilvelho.jfif" alt="imagem perfil 8"
+              /></span>
+              <span
+                ><img src="assets/img/perfilmaloqueiro.jfif" alt="imagem perfil 3"
+              /></span>
+              <p>Curtido por <b>Yuri Fellipe</b> e mais 300 pessoas</p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b>Karine Silva</b> prainha
+              </p>
+            </div>
+            <div class="comentarios texto-mudo">Ver os 100 comentários</div>
+          </div>
+          <!-- fim feed 3 -->
+          <!-- inicio feed 4 -->
+          <div class="feed">
+            <div class="cabecalho">
+              <div class="usuario">
+                <div class="foto-perfil">
+                  <img src="assets/img/perfilmaloqueiro.jfif" alt="foto-barry-allen" />
+                </div>
+                <div class="ingo">
+                  <h3>Yuri Fellipe</h3>
+                  <small>Jaguaré, SP, 2 minutos atrás</small>
+                </div>
+              </div>
+              <span class="editar">
+                <i class="uil uil-ellipsis-h"></i>
+              </span>
+            </div>
+
+            <div class="foto-feed">
+              <img src="assets/img/malokeirofeddd.jfif" alt="imagem Paris" />
+            </div>
+
+            <div class="btn-acao">
+              <div class="btn-interacao">
+                <span><i class="uil uil-heart-alt"></i></span>
+                <span><i class="uil uil-comment-dots"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+              <div class="bookmark">
+                <span><i class="uil uil-bookmark-full"></i></span>
+              </div>
+            </div>
+
+            <div class="curtidas">
+              <span
+                ><img src="assets/img/perfilvelho.jfif" alt="imagem perfil 5"
+              /></span>
+              <span
+                ><img src="assets/img/perfilraycka.jfif" alt="imagem perfil 8"
+              /></span>
+              <span
+                ><img src="assets/img/perfilkariii.jfif" alt="imagem perfil 3"
+              /></span>
+              <p>Curtido por <b>Karine Silva</b> e mais 99 pessoas</p>
+            </div>
+
+            <div class="caption">
+              <p>
+                <b>Yuri Fellipe</b> 
+                <span class="hash-tag"> Do jeito atrevido elas quer atenção </span>
+              </p>
+            </div>
+            <div class="comentarios texto-mudo">Ver os 70 comentários</div>
+          </div>
+          <!-- fim feed 4 -->
+        </div>
+        <!-- fim feeds -->
+      </div>
+      <!-- fim meio -->
+
+      <!-- inicio direita -->
+      <div class="direita">
+      
+        
+        <!--inicio solicitcao-->
+        <div class="solicitacao-amigos">
+          <h4>Solicitações</h4>
+          <div class="solicitacao">
+            <input
+            type="text"
+            name="post"
+            id="solicitação"
+           
+          />
+            <div class="info">
+              <div class="foto-perfil">
+                <img src="assets/img/solicitacao1.jpg" alt="imagem solicitacao1">
+              </div>
+              <div>
+                <h5>Isabelly Santos</h5>
+                <p class="texto-mutado">
+                  12 amigos em comum
+                </p>
+              </div>
+            </div>
+            <div class="action">
+              <button class="btn btn-primario">Aceitar</button>
+              <button class="btn">Remover</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="solicitacao">
+          <div class="info">
+            <div class="foto-perfil">
+              <img src="assets/img/solicitacao2.jfif" alt="imagem solicitacao1">
+            </div>
+            <div>
+              <h5>Gabriel Oliveira</h5>
+              <p class="texto-mutado">
+                25 amigos em comum
+              </p>
+            </div>
+          </div>
+          <div class="action">
+            <button class="btn btn-primario">Aceitar</button>
+            <button class="btn">Remover</button>
+          </div>
+        </div>
+
+        <div class="solicitacao">
+          <div class="info">
+            <div class="foto-perfil">
+              <img src="assets/img/perfil1.jpeg" alt="imagem solicitacao1">
+            </div>
+            <div>
+              <h5>Day Cordeiro</h5>
+              <p class="texto-mutado">
+                100 amigos em comum
+              </p>
+            </div>
+          </div>
+          <div class="action">
+            <button class="btn btn-primario">Aceitar</button>
+            <button class="btn">Remover</button>
+          </div>
+        </div>
+
+        <div class="solicitacao">
+          <div class="info">
+            <div class="foto-perfil">
+              <img src="assets/img/perfil8.png" alt="imagem solicitacao1">
+            </div>
+            <div>
+              <h5>Victor Silva</h5>
+              <p class="texto-mutado">
+                40 amigos em comum
+              </p>
+            </div>
+          </div>
+          <div class="action">
+            <button class="btn btn-primario">Aceitar</button>
+            <button class="btn">Remover</button>
+          </div>
+        </div>
+
+        
+        <div class="mensagens">
+          <div class="heading">
+            <h4>Mensagens</h4>
+            <input
+            type="text"
+            name="post"
+            id="mensagem">
+            <i class="uil uil-edit"></i>
+          </div>
+
+          <!-- inicio barra de pesquisa -->
+          <div class="pesquisa-bar">
+            <i class="uil uil-search"></i>
+            <input
+              type="search"
+              placeholder="Pesquise por mensagens"
+              id="mensagens-pesquisa"
+            />
+          </div>
+
+        <div class="solicitacao-amigos">
+
+          <div class="solicitacao">
+            <div class="info">
+              <div class="foto-perfil">
+      <img src="assets/img/perfilkariii.jfif" alt="mensagem 1" />
+    </div>
+
+    <div class="mensagem-corpo">
+      <h5>Karine Silva</h5>
+      <p class="texto-bold">3 novas mensagens</p>
+    </div>
+  </div>
+
+  <div class="mensagem">
+    <div class="foto-perfil">
+      <img src="assets/img/perfilmaloqueiro.jfif" alt="mensagem 2" />
+      <div class="active"></div>
+    </div>
+
+    <div class="mensagem-corpo">
+      <h5>Yuri Fellipe</h5>
+      <p class="texto-bold">3 novas mensagens</p>
+    </div>
+  </div>
+
+  <div class="mensagem">
+    <div class="foto-perfil">
+      <img src="assets/img/perfilraycka.jfif" alt="mensagem 3" />
+    </div>
+
+    <div class="mensagem-corpo">
+      <h5>Rayca Marszolekinha</h5>
+      <p class="texto-mutado">Estou estudando...</p>
+    </div>
+  </div>
+
+  <div class="mensagem">
+    <div class="foto-perfil">
+      <img src="assets/img/solicitacao2.jfif" alt="mensagem 4" />
+      <div class="active"></div>
+    </div>
+
+    <div class="mensagem-corpo">
+      <h5>Gabriel Oliveira</h5>
+      <p class="texto-mutado">Oii</p>
+    </div>
+  </div>
+
+
+      <!-- fim direita -->
+    
+
+</main>
+<!-- fim mensagens -->
+
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
